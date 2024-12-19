@@ -20,7 +20,7 @@ nav {
   position: fixed;
   top: 0;
   left: -200%;
-  width: 72%;
+  width: 80%;
   height: 100%;
   background-color: #007598;
   padding-left: 1.2em;
@@ -38,7 +38,7 @@ nav {
   justify-content: start;
   align-items: center;
   width: 100%;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.6em;
 
   & img {
     height: 36px;
@@ -94,7 +94,7 @@ nav {
   align-items: center;
   margin-bottom: 1.4em;
   color: #ecf0f1;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
