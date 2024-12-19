@@ -11,5 +11,7 @@ hideBtn.addEventListener('click', () => {
 });
 
 document.onclick = function(e) {
-    !navbar.contains(e.target) ? navbar.classList.remove('active') : ''
+    if (!navbar.contains(e.target) && !navBtn.contains(e.target)) {
+navbar.classList.remove('active')
+}
 }
