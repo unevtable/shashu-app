@@ -24,7 +24,7 @@ nav {
   height: 100%;
   background-color: #007598;
   padding-left: 1.2em;
-  padding-top: 2.4em;
+  padding-top: 2.2em;
   transition: left 0.3s ease;
   z-index: 100;
 }
@@ -38,7 +38,7 @@ nav {
   justify-content: start;
   align-items: center;
   width: 100%;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.7em;
 
   & img {
     height: 36px;
