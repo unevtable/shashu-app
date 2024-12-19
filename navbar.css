@@ -81,7 +81,7 @@ nav {
 }
 
 .divider {
-  height: 2px;
+  height: 1.6px;
   width: calc(100% + 1.25em);
   margin: 1.5em 0;
   margin-left: -1.25em;
