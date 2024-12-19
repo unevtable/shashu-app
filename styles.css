@@ -1,4 +1,4 @@
-body {
+1body {
   font-family: 'Poppins';
   margin: 0;
   user-select: none;
@@ -73,9 +73,9 @@ main {
 
 .total {
   color: #064a5f;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 
   & span {
     color: #007597;
