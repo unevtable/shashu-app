@@ -1,0 +1,117 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 0px 80px rgba(0, 0, 0, 0.5);
+}
+
+#navBtn,
+.bell-img {
+  user-select: none;
+  -webkit-user-drag: none;
+  transition: all ease 0.2s;
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+#navbar {
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -150%;
+  width: 72%;
+  height: 100%;
+  background-color: #007598;
+  padding-left: 0.8em;
+  padding-top: 1em;
+  transition: left 0.3s ease;
+  z-index: 100;
+}
+
+#navbar.active {
+  left: 0;
+}
+
+.hide-btn-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.2em;
+
+  & img {
+    height: 24px;
+    align-self: center;
+  }
+
+  & .nav-title {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.3em;
+  }
+}
+
+#hideBtn {
+  color: #fff;
+  border: none;
+  width: 22px;
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.name {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.mobile-number {
+  margin-top: 0.5em;
+  margin-bottom: 0.9em;
+  font-size: 0.66rem;
+  font-weight: 300;
+}
+
+.college-code {
+  font-size: 0.66rem;
+  font-weight: 300;
+}
+
+.divider {
+  height: 1.25px;
+  width: 79vw;
+  margin: 1em 0;
+  margin-left: -1.25em;
+  background-color: #65bcd7;
+  opacity: 0.7;
+}
+
+.nav-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8em;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.nav-option img {
+  width: 24px;
+  margin-right: 0.3em;
+}
+
+.version {
+  margin-top: 1em;
+  font-size: 0.65rem;
+}
+
+.dev {
+  position: absolute;
+  left: 8%;
+  bottom: 5%;
+  width: 64px;
+}
