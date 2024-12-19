@@ -9,3 +9,7 @@ navBtn.addEventListener('click', () => {
 hideBtn.addEventListener('click', () => {
     navbar.classList.remove('active');
 });
+
+document.onclick = function(e) {
+    !navbar.contains(e.target) ? navbar.classList.remove('active') : ''
+}
