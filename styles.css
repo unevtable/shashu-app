@@ -23,15 +23,15 @@ header {
   margin-bottom: 0.3em;
 
   & img {
-    width: 3rem;
+    width: 4rem;
     border-radius: 50%;
     margin-left: 0.5em;
     object-fit: contain;
   }
 
   & .bell-img {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     padding-bottom: 0.3em;
     margin-right: 1em;
   }
@@ -44,7 +44,7 @@ header {
 
 h1 {
   margin-left: 0.4em;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   padding-bottom: 0.5em;
   font-weight: 600;
 }
@@ -73,7 +73,7 @@ main {
 
 .total {
   color: #064a5f;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 
   & span {
@@ -96,10 +96,10 @@ main {
 .total-footer,
 .separate {
   display: block;
-  padding: 0 0.5em;
+  padding: 0 0.4em;
   text-align: center;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #3d3d3d;
 }
 
