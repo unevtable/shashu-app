@@ -84,6 +84,7 @@ main {
 
 .total-img {
   width: var(--img-width);
+  pointer-events: none;
 }
 
 .total-img:hover+.main-number {
